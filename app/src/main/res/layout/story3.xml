@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="3dp"
+        tools:context=".MyCardActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_centerHorizontal="true"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/index"
+                    android:layout_alignParentTop="true" />
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical"
+                    android:fillViewport="true"
+                    android:layout_alignParentBottom="true"
+                    android:nestedScrollingEnabled="true"
+                    android:id="@+id/scrollView"
+                    android:layout_below="@+id/image">
+
+                <TextView
+                    android:id="@+id/info_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Long, long ago, Olorun (OH-low-run), the sky god, lowered a great chain from the heavens to the ancient waters. Down this chain climbed Oduduwa, Olorun&apos;s son. Oduduwa brought with him a handful of dirt, a special five-toed chicken, and a palm nut. He threw the dirt upon the ancient waters and set the chicken on the dirt. The chicken busily scratched and scattered the dirt until it formed the first dry earth. In the center of this new world, Oduduwa created the magnificent Ife (EE-fay) kingdom. He planted the palm nut, which grew into a proud tree with 16 branches, symbolizing the 16 sons andgrandsons of Oduduwa. Oduduwa was the first ruler of the kingdom and the father of all Yoruba. Over time he crowned his 16 sons and grandsons and sent them off to establish their own great Yoruba kingdoms. As descendants of the sky god, these first Yoruba rulers and their direct descendants were divine kings. Only they could wear special veiled crowns that symbolized their sacred power."
+                    android:textSize="25sp"
+                    android:layout_below="@+id/image"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                </ScrollView>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+</LinearLayout>

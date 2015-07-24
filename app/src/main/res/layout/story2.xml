@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="3dp"
+        tools:context=".MyCardActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_centerHorizontal="true"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/anansi01"
+                    android:layout_alignParentTop="true" />
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical"
+                    android:fillViewport="true"
+                    android:layout_alignParentBottom="true"
+                    android:nestedScrollingEnabled="true"
+                    android:id="@+id/scrollView"
+                    android:layout_below="@+id/image">
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Once upon a time, a long time ago, there lived a spider named Anansi. Anansi&apos;s wife was a very good cook. But always, Anansi loved to taste the food that others in the village made for themselves and for their families. One day, he stopped by Rabbit&apos;s house. Rabbit was his good friend. &quot;There are greens in your pot,&quot; cried Anansi excitedly. Anansi loved greens. &quot;They are not quite done,&quot; said Rabbit. &quot;But they will be soon. Stay and eat with me.&quot; &quot;I would love to, Rabbit, but I have some things to do,&quot; Anansi said hurriedly. If he waited at Rabbit&apos;s house, Rabbit would certainly give him jobs to do. &quot;I know,&quot; said Anansi. &quot;I&apos;ll spin a web. I&apos;ll tie one end around my leg and one end to your pot. When the greens are done, tug on the web, and I&apos;ll come running!&quot; Rabbit thought that was a great idea. And so it was done. &quot;I smell beans,&quot; Anansi sniffed excitedly as he ambled along. &quot;Delicious beans, cooking in a pot.&quot; &quot;Come eat our beans with us,&quot; cried the monkeys. &quot;They are almost done.&quot; &quot;I would love to Father Monkey,&quot; said Anansi. And again, Anansi suggested he spin a web, with one end tied around his leg, and one end tied to the big bean pot. Father Monkey thought that was a great idea. All his children thought so, too. And so it was done. &quot;I smell sweet potatoes,&quot; Anansi sniffed happily as he ambled along. &quot;Sweet potatoes and honey, I do believe!&quot; &quot;Anansi,&quot; called his friend Hog. &quot;My pot is full of sweet potatoes and honey! Come share my food with me.&quot; &quot;I would love to,&quot; said Anansi. And again, Anansi suggested he spin a web, with one end tied around his leg, and one end tied to the sweet potato pot. His friend Hog thought that was a great idea. And so it was done. By the time Anansi arrived at the river, he had one web tied to each of his eight legs. &quot;This was a wonderful idea,&quot; Anansi told himself proudly. &quot;I wonder whose pot will be ready first?&quot; Just then, Anansi felt a tug at his leg. &quot;Ah,&quot; said Anansi. &quot;That is the web string tied to Rabbit&apos;s greens.&quot; He felt another. And another. Anansi was pulled three ways at once. &quot;Oh dear,&quot; said Anansi as he felt the fourth web string pull. Just then, he felt the fifth web string tug. And the sixth. And the seventh. And the eighth. Anansi was pulled this way and that way, as everyone pulled on the web strings at once. His legs were pulled thinner and thinner. Anansi rolled and tugged himself into the river. When all the webs had washed away, Anansi pulled himself painfully up on shore. &quot;Oh my, oh my,&quot; sighed Anansi. &quot;Perhaps that was not such a good idea after all.&quot; To this day, Anansi the Spider has eight very thin legs. And he never got any food that day at all. "
+                        android:textSize="25sp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </ScrollView>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+</LinearLayout>

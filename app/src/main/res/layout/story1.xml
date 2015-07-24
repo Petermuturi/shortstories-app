@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="3dp"
+        tools:context=".MyCardActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_centerHorizontal="true"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lion"
+                    android:layout_alignParentTop="true" />
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical"
+                    android:fillViewport="true"
+                    android:layout_alignParentBottom="true"
+                    android:nestedScrollingEnabled="true"
+                    android:id="@+id/scrollView"
+                    android:layout_below="@+id/image">
+                <TextView
+                    android:id="@+id/info_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Once upon a time, there lived a young husband and wife in a small village in Africa. For some time now, the husband had not been happy with his marriage. He began to come home late from working in the fields. His wife thought he was the most wonderful man. But she was unhappy, too. His behavior was making her miserable. Finally, she went to the oldest man in her village, the village elder. The elder was sad to hear her marriage was not a happy one. He had married them only two years before. At the time, he was sure that the marriage would be a good one. &quot;Of course I will end your marriage if that is what you want,&quot; he told the young wife, after listening patiently for a while. &quot;You will be free to marry again. But is that really what you want?&quot; &quot;I want my husband to be loving,&quot; she said. &quot;I want to be loving. We are both miserable.&quot; &quot;I think I can help you,&quot; the elder said slowly. &quot;I can prepare a secret potion that will change your husband into a loving man.&quot; &quot;Prepare this magic potion at once!&quot; the young wife cried out excitedly. &quot;I could make it,&quot; he said sadly. &quot;But I am missing an important ingredient. I am too old to get this ingredient for you. You must bring it to me.&quot; &quot;What do you need?&quot; the young wife asked eagerly. &quot;I&apos;ll bring it today.&quot; &quot;I need a single whisker taken from a living lion to make the potion work.&quot; Her eyes widened in alarm. She bit her bottom lip. She straightened her shoulders. &quot;I&apos;ll get it for you,&quot; she nodded. The next morning, the young wife carried a huge piece of raw meat down to the river where lions sometimes came to drink. She hid behind a tree and waited. After waiting many hours, a lion ambled down to the river to have a drink. He sniffed at the raw meat. In three bites, the meat was gone. He raised his mighty head. He knew she there. The young wife held her breath. The mighty lion moved slowly back into the forest and disappeared. The next day, the young wife came again. This time, the lion appeared quite quickly. This continued for many days. Days became weeks. Each day, the woman crept from her hiding place behind the tree, moving closer and closer to the lion. At the end of four weeks, she moved quietly next to the lion and sat silently while he ate. Her hand shaking, she reached slowly out and pulled a whisker from his chin. Holding per prize firmly in one hand, she sat frozen until the lion had disappeared back into the forest. She ran to the elder, waving her whisker. &quot;I have it,&quot; she shouted. &quot;I have it!&quot; The elder was in awe when he heard her story. &quot;You do not need magic to change your husband back into the loving man he once was. You are brave enough to pull a whisker from the chin of a living lion. It took cleverness and bravery to do what you have done. Can you not use that same patience and courage and wit with your husband? &quot;But the potion,&quot; the young wife said eagerly. &quot;Would not that work as well?&quot; &quot;Perhaps,&quot; the elder told her. &quot;But it would not last. Trust me, my child. Show your husband each day that you love him. Share his problems. Make him feel welcome. Make him feel wanted and needed. Give him time to change and see what happens.&quot; The young wife went home and followed the elder&apos;s advice. Slowly, her husband began to return from the fields with the other men of the village. He began to look glad to see her. Within a year, their life was a happy one."
+                    android:textSize="25sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                </ScrollView>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>

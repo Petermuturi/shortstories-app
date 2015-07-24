@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="3dp"
+        tools:context=".MyCardActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_centerHorizontal="true"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/theman"
+                    android:layout_alignParentTop="true" />
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical"
+                    android:fillViewport="true"
+                    android:layout_alignParentBottom="true"
+                    android:nestedScrollingEnabled="true"
+                    android:id="@+id/scrollView"
+                    android:layout_below="@+id/image">
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Once upon a time there lived a wise man by the name of Mamad. He never lied. All the people in the land, even the ones who lived twenty days away, knew about him. The king heard about Mamad and ordered his subjects to bring him to the palace. He looked at the wise man and asked: &quot; Mamad, is it true, that you have never lied?&quot; &quot; It&apos;s true.&quot; &quot;And you will never lie in your life?&quot; &quot; I&apos;m sure in that.&quot; &quot;Okay, tell the truth, but be careful! The lie is cunning and it gets on your tongue easily.&quot; Several days passed and the king called Mamad once again. There was a big crowd: the king was about to go hunting. The king held his horse by the mane, his left foot was already on the stirrup. He ordered Mamad: &quot;Go to my summer palace and tell the queen I will be with her for lunch. Tell her to prepare a big feast. You will have lunch with me then.&quot; Mamad bowed down and went to the queen. Then the king laughed and said: &quot;We won&apos;t go hunting and now Mamad will lie to the queen. Tomorrow we will laugh on his behalf.&quot; But the wise Mamad went to the palace and said: &quot;Maybe you should prepare a big feast for lunch tomorrow, and maybe you shouldn&apos;t. Maybe the king will come by noon, and maybe he won&apos;t.&quot; &quot;Tell me will he come, or won&apos;t he?&quot; - asked the queen. &quot;I don&apos;t know weather he put his right foot on the stirrup, or he put his left foot on the ground after I left.&quot; Everybody waited for the king. He came the next day and said to the queen: &quot;The wise Mamad, who never lies, lied to you yesterday.&quot; But the queen told him about the words of Mamad. And the king realized, that the wise man never lies, and says only that, which he saw with his own eyes. "
+                        android:textSize="25sp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </ScrollView>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+</LinearLayout>

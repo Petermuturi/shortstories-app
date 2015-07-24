@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="3dp"
+        tools:context=".MyCardActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_centerHorizontal="true"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/honeyy"
+                    android:layout_alignParentTop="true" />
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical"
+                    android:fillViewport="true"
+                    android:layout_alignParentBottom="true"
+                    android:nestedScrollingEnabled="true"
+                    android:id="@+id/scrollView"
+                    android:layout_below="@+id/image">
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="There was once a young girl from a village far way who had a special talent for finding the very best foods in the bush. Her oranges were just a little sweeter, her plums just a little larger, and her bananas had just a little more flavor. Everyone wondered where she located such delicious fruits. But, nobody ever asked the girl about her secrets of the bush. That is, nobody asked her after they heard the story about Spider and this young girl. One day Spider asked this young girl to help him look for food. He was too lazy to work for himself and was sure he could trick this girl into sharing her secrets. He didn&apos;t know how clever this girl could be. &quot;Little girl, nobody finds fruits as sweet as yours,&quot; cooed the spider. &quot;Will you please take me with you when you go looking in the bush?&quot; &quot;I&apos;ve never done that before,&quot; replied the girl. &quot;It would mean so much if you could do it one time,&quot; pleaded Spider. &quot;Well, I suppose I can do it just once,&quot; agreed the girl. &quot;Do you promise to keep my secrets?&quot; &quot;You can trust me,&quot; promised the lazy spider. &quot;What do you like to eat?&quot; &quot;Well, I like plums and bananas, of course, but I especially love honey.&quot; &quot;I think I can help you,&quot; grinned the girl. Spider couldn&apos;t believe his luck. The girl lead Spider along the path into the bush. She took him down trails into areas where people rarely ever go. Spider grinned because he knew he was about to learn her secret places for finding the very best food. After learning this, he would never again have to work hard for good food. &quot;This plum tree,&quot; explained the girl, &quot;does not have much fruit so most people ignore it, but its plums are the sweetest ones in all of the bush.&quot; Now Spider was just as greedy as he was lazy. As soon as the young girl showed him the secret plums, his eyes became wide and his mouth began to water. Then, Spider shoved the little girl into the bushes. He rushed past her and climbed up into the tree. Then, he ate every single one of the plums. He didn&apos;t even leave one plum for the little girl. And, he didn&apos;t even say thank you! After his feast, Spider rubbed his very full belly and thought, &quot;This is the best day of my life! What a great idea! I can&apos;t believe she showed me where her plums are found. I wonder if she will take me to any bananas? She must be very foolish.&quot; Spider looked down at the girl with his biggest smile and she asked politely, &quot;Do you want any of my special bananas?&quot; He raced down out of the tree before the girl could change her mind. The girl continued down the path showing Spider her secrets of the bush. They walked further down the trail into areas where people rarely ever go. &quot;Over here is a small patch of the very best bananas,&quot; declared the young girl. Again, as soon as Spider learned the secret, his eyes became wide and his mouth began to water. Again, he shoved the little girl into the bushes. He rushed past her and climbed the banana plants. He ate every single one of the ripe bananas. Again, he left the young girl with nothing -- not even one banana. And once again, he didn&apos;t even say thank you! His belly was so full, but Spider was not satisfied. He wanted to learn more of the secret places of the bush. He thought to himself, &quot;This girl is really foolish. But, as long as she guides me, I will continue to eat all of her food.&quot; Again, Spider looked down at the little girl and smiled. Once again, the young girl looked up at Spider and politely asked, &quot;Are you too full or would you like to find some honey?&quot; One more time, Spider rushed out of the tree and followed the girl down the trail before she had a chance to change her mind. The young girl guided Spider deeper and deeper into the bush where people rarely ever go. &quot;Over here,&quot; she instructed, &quot;is a very special tree. Deep inside a small hole is the most delicious honey in all of the bush.&quot; Now this girl was not nearly as foolish as Spider thought. She had a plan to teach this greedy spider a lesson. She remembered that Spider loved honey and was not surprised at all when his eyes became wide and his mouth started to water. She also wasn&apos;t surprised when he shoved her into the bushes, ran past her, climbed up the tree, and squeezed into the hole. Again, he ate all of the sweet golden honey, sharing nothing with the young girl. He didn&apos;t even share one drop. And once again, he didn&apos;t even say thank you. When Spider had eaten his fill, he tried to climb out of the tree but he couldn&apos;t get out the hole. His stomach had grown too large. He was stuck! &quot;Help me, young girl,&quot; cried the spider. &quot;I cannot get out of the tree!&quot; &quot;You wouldn&apos;t be stuck if you hadn&apos;t been so selfish,&quot; scolded the girl. &quot;I&apos;m sorry for what I did! Please call for help,&quot; cried Spider. &quot;I am not as foolish as you think. You aren&apos;t sorry for what you did. You are only sorry you are caught in the tree.&quot; &quot;No, you&apos;re wrong,&quot; lied the spider but in his heart he knew she was right. He had enjoyed every minute, every bite of food, as long as he thought he was tricking the young girl. He never expected his idea to turn into such a problem for him. &quot;Please call for help! I am trapped!&quot; Finally, a smile crossed over the little girl&apos;s face and she said she would do as the spider asked. She cried for help -- as softly as she could, &quot;Help! Help! The foolish spider is caught inside the honey tree. Help! Somebody come and help this greedy spider!&quot; Of course, nobody could hear her whispers for help. And, nobody could hear Spider&apos;s cries from deep inside the tree. They were too far into the bush where people rarely ever go.Finally, the little girl looked up at Spider with a clever grin. &quot;Good bye, Spider, I am going to get some huge oranges for my family. If you want to eat some, just follow me there.&quot; She waved to him as she left to go down the trail."
+                        android:textSize="25sp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </ScrollView>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+</LinearLayout>

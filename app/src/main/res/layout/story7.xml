@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="3dp"
+        tools:context=".MyCardActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_centerHorizontal="true"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bushplaychief"
+                    android:layout_alignParentTop="true" />
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical"
+                    android:fillViewport="true"
+                    android:layout_alignParentBottom="true"
+                    android:nestedScrollingEnabled="true"
+                    android:id="@+id/scrollView"
+                    android:layout_below="@+id/image">
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="&quot;Help me,&quot; the old man begged. &quot;My neighbor has stolen from me.&quot; The paramount chief gladly listened. It pleased him that others recognized his wisdom. &quot;What exactly is the problem?&quot; questioned the chief. &quot;My neighbor stole my goats. I&apos;m a poor man, too poor to replace them.&quot; &quot;And what do you have to say?&quot; the chief asked the man&apos;s neighbor. &quot;I don&apos;t know what he is talking about,&quot; answered the neighbor. &quot;I have many goats but none of them belong to this man.&quot; This would not be an easy problem to settle. The paramount chief would have to rely on his wisdom. It was the kind of problem he enjoyed the most. &quot;I have a test for you,&quot; announced the chief. &quot;Whoever passes the test will own the goats. Go home until you can answer this for me. I want to know what is the fastest thing in the world. Do not return until you have my answer.&quot; The two men left shaking their heads. Who could answer that question? The old man repeated the question to his daughter, Ziah. She was as beautiful as she was wise. Right away, she whispered the answer that would please the chief. The old man returned to the chief the following morning. The chief was surprised. &quot;You already have an answer for my question?&quot; &quot;Yes,&quot; replied the old man, &quot;it was not difficult.&quot; &quot;And what is the fastest thing in the world?&quot; &quot;Time,&quot; answered the old man. &quot;We never have enough of it. It always goes too fast. There is never enough time to do all that we want to do.&quot; The answer amazed the paramount chief. He wasn&apos;t sure if he himself could have answered the question as well. &quot;Who helped you? Who gave you these words?&quot; demanded the chief. &quot;They are my own words, my own thoughts,&quot; lied the old man. &quot;There is no one else who helped me.&quot; &quot;If you are not telling the truth, I will punish you,&quot; warned the chief. The old man was too afraid to continue the lie. &quot;It was my daughter, Ziah, who gave me the words,&quot; he confessed. &quot;She is a very wise woman.&quot; &quot;She must be!&quot; thought the chief. &quot;I would like to meet this woman.&quot; Not long after that the old man presented his daughter Ziah to the paramount chief. If the chief was amazed with her wisdom, he was captivated by her beauty. &quot;You are indeed a wise and lovely woman. I would be honored to have you as my wife. Will you marry me?&quot; &quot;The honor is mine,&quot; smiled Ziah. Although the chief was pleased, he was also concerned about having such a wise wife. He did not want her to interfere with the problems brought before him. He didn&apos;t want to share this honor with anyone, not even his wife. &quot;Everything in my house is yours,&quot; declared the chief. &quot;I only have one rule for you. You must never involve yourself with the problems brought before me. This is your only warning. If you break this rule, I will send you from my house.&quot; The chief&apos;s new wife only smiled at his command. Things went well for quite some time. The paramount chief continued to hear people&apos;s problems while Ziah kept herself busy without becoming involved. Usually she agreed with his decisions. One day, however, the chief gave one of his puzzles to two boys who argued over a sheep. Ziah knew she shouldn&apos;t help the boy who really owned the sheep, but he was so upset. She finally asked him to explain his problem. &quot;The chief asked for the impossible,&quot; he sighed. &quot;He gave us an egg and said that whoever could hatch the egg by tomorrow would own the sheep.&quot; Ziah knew she shouldn&apos;t help but the solution was so obvious. &quot;Take some rice to the chief,&quot; she instructed. &quot;Tell him to plant it today so that in the morning you will have rice to feed your chicken. He will know that it is just as impossible to grow rice in one day as it is to hatch an egg that quickly.&quot; The boy ran to the chief with the rice. He said exactly the words he was told. The chief was not impressed; he was angry! &quot;Who told you this? Who gave you the rice?&quot; he ordered. &quot;These words are too wise for one so young.&quot; &quot;They are my own words, my own thoughts,&quot; said the boy too afraid to speak the truth. &quot;There is no one else who helped me.&quot; &quot;If you are not speaking the truth, I will punish you,&quot; warned the chief. &quot;It was Ziah!&quot; cried the boy. &quot;She knew you&apos;d understand the wisdom.&quot; The chief, furious his wife had broken his only rule for her, called her before him and scolded, &quot;Didn&apos;t you know all that I have is yours? You have broken the only rule I had for you. Now, go back to your father&apos;s home.&quot; &quot;Before I go, may I fix you one final meal?&quot; asked the woman. &quot;Then, I will take what is mine and go.&quot; &quot;Yes,&quot; answered the chief. &quot;Make whatever you want. Take whatever you want. Just be sure that you do not remain here tonight!&quot; Ziah prepared the chief&apos;s favorite meal. She served it with a generous amount of palm wine. Before the meal was finished, the chief became very drunk and quietly fell asleep. Ziah&apos;s plans worked exactly as she had hoped. With her family&apos;s help, she carried the paramount chief to her father&apos;s home. They placed him on a bed and he slept soundly through the night. In the morning the chief&apos;s voice boomed throughout the house. &quot;Where am I? What am I doing here?&quot; he demanded. Ziah entered the room and grinned. &quot;You said I could take whatever I wanted from your house. I wanted you and so I took you.&quot; &quot;You are certainly a wise woman,&quot; smiled the chief. &quot;Come return with me to our home. Only a fool would send away such a woman.&quot; &quot;And you, my chief, are no fool,&quot; whispered the clever wife."
+                        android:textSize="25sp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </ScrollView>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="3dp"
+        tools:context=".MyCardActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_centerHorizontal="true"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bushhplaysnake"
+                    android:layout_alignParentTop="true" />
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical"
+                    android:fillViewport="true"
+                    android:layout_alignParentBottom="true"
+                    android:nestedScrollingEnabled="true"
+                    android:id="@+id/scrollView"
+                    android:layout_below="@+id/image">
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" &quot;My eggs!&quot; cried Chicken. &quot;One of my eggs is missing! Yesterday I had twelve eggs and today there are only eleven.&quot; As Chicken fled her nest to find Rooster, she had no idea that she was about to lose more eggs. Just out of view of the nest, the thief patiently waited for Chicken to leave her eggs again. Black Snake crept slowly and quietly up to the nest. He eyed the eggs and quickly swallowed one. Black Snake smiled to himself. His plan had been so simple and had worked so well. He swallowed another egg. It slid far down his long throat before his muscles crushed the fragile shell. &quot;I&apos;ll be back later for another delicious egg, Chicken,&quot; hissed Black Snake as he slithered away. &quot;Thank you for another fine meal.&quot; Meanwhile, the frantic chicken lead Rooster back to her nest. &quot;Why would someone take one of my eggs?&quot; she clucked. &quot;Are you sure you counted correctly? Maybe you just thought you saw eleven eggs?&quot; suggested Rooster. From the expression on Chicken&apos;s face, Rooster knew he shouldn&apos;t have asked that question. She glared at him and said, &quot;You know I can count. See for yourself. How many eggs are in my nest?&quot; &quot;One, two, three,&quot; began Rooster. He frowned and stopped counting out loud. &quot;What&apos;s the matter now?&quot; questioned Chicken. &quot;Are you afraid to admit you&apos;re wrong?&quot; &quot;No, it&apos;s nothing like that at all,&quot; responded Rooster. &quot;Something is very wrong here. There are only nine eggs.&quot; &quot;What? Nine Eggs!&quot; cried Chicken. &quot;What is happening? Who would do this to me?&quot; The next few days were just terrible for Chicken. She worried constantly about her remaining eggs. She tried to stay with her eggs at all times but it wasn&apos;t possible to always be with them. Sometimes she had to leave to get food or take care of her other chicks. No matter why she left, the same thing always happened. One or two eggs disappeared each time. &quot;Someone is watching me very closely,&quot; cried the chicken. &quot;He knows exactly where I am at each moment of the day. I only have three remaining eggs.&quot; &quot;Although I cannot prove anything,&quot; comforted Rooster, &quot;I think it must be Black Snake who is stealing your eggs. He&apos;s patient enough to watch you a long time, and we all know how he loves to eat eggs.&quot; Just the thought of Black Snake eating her eggs made Chicken shudder. She had heard stories of how he swallowed eggs and then crushed them further down his long slender neck. She knew Rooster was probably correct. &quot;I must hurry back to my nest,&quot; declared Chicken, realizing how long she had talked to Rooster. She rushed to her eggs, but it was too late. Two more eggs had vanished. &quot;Rooster!&quot; she cried. &quot;Come help me. I only have one egg left.&quot; Rooster came quickly. &quot;You know, it is very likely that Black Snake will steal your last egg tomorrow,&quot; he warned. &quot;Unless we are able to trap him, this will only continue every time you have eggs.&quot; &quot;Yes, it&apos;s true,&quot; cried Chicken, &quot;but what can we do? How can we possibly stop Black Snake?&quot; &quot;I have a plan,&quot; whispered Rooster. &quot;I think we will not be bothered by him much longer.&quot; The next morning, Chicken continued guarding her last egg as if everything were normal. From a distance, Black Snake didn&apos;t realize that a deadly trap had been set for him. Chicken left her nest for only the shortest moment when Black Snake slithered out of hiding. In no time at all, he swallowed the final egg. It slid down his throat easily. But, when his muscles squeezed the egg, it did not break. It only became firmly lodged in his throat cutting off his air supply. Black Snake twisted and turned trying to crush the egg or loosen it so he could breathe. By the time Chicken returned with Rooster, the struggle was over. Black Snake would steal no more eggs. He was dead. &quot;I&apos;m sure he died never knowing why that egg didn&apos;t crush,&quot; crowed Rooster. &quot;How could he have known,&quot; clucked Chicken, &quot;that the egg was hard boiled?&quot;"
+                        android:textSize="25sp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </ScrollView>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+</LinearLayout>
