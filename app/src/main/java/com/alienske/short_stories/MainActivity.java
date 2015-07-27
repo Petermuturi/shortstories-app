@@ -21,14 +21,10 @@ public class MainActivity extends ActionBarActivity {
 
         listView = (ListView) findViewById(R.id.listView1);
 
-        String[] values = new String[] {"The Lion's Whisker",
-                "Why Anasi Has Eight Thin Legs",
-                "King's Crown",
-                "Memorial Tusk",
-                "Black Snake And The Eggs",
-                "The Spider And The Honey Tree",
-                "The Chief Who Was No Fool",
-                "The Man Who Never Lied"};
+        String[] values = new String[] {"The Lion's Whisker","Why Anasi Has Eight Thin Legs","King's Crown","Memorial Tusk","Black Snake And The Eggs", "The Spider And The Honey Tree", "The Chief Who Was No Fool", "The Man Who Never Lied"};
+       int[] images = new int[] {};
+        String[] previews = new String[] {};
+
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, values);
         listView.setAdapter(adapter);
 
